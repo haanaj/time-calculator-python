@@ -2,7 +2,7 @@
 
 #get user input
 print("")
-print("Welcome to the time calculator! This will an end/start time.")
+print("Welcome to the time calculator! This will give you a start/end time based on your inputs.")
 print("")
 shift = input("Do you want to go back in time or forward? Type B for back, and F for forward: ")
 shift = shift.upper().replace(" ", "")
