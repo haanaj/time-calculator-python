@@ -1,4 +1,4 @@
-#Time Calculator
+##Time Calculator
 
 This project has three Python files.
 
