@@ -41,6 +41,8 @@ if firstTime == secondTime:
     elif secondHours > firstHours:
         if((secondHours - firstHours) == 1 and totalMinutes < 60):
             totalHours = 0
+        elif secondHours == 12 and secondTime == "AM": #if we want the difference between 1am and 12am, then it's 24 hours minus the first time
+            totalHours = 24 - firstHours
         else: 
             totalHours = secondHours - firstHours
     else:
