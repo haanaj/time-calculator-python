@@ -1,7 +1,7 @@
 
 # Time Calculator
 
-This project has three Python files.
+This project has three Python files. This is a work in progress!
 
 ## twotimes.py
 
