@@ -1,5 +1,6 @@
 #testing out bits of code here
 
+#testing out the while loop that formats the minute string if under 10
 counter = 0
 firstMin = 0
 if(firstMin < 10):
