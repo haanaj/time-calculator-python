@@ -67,7 +67,7 @@ elif(shift == "B"): #check backwards now
             else:
                 current = "AM"
             hours += 12 #add 12 so we can begin subtracting again
-    hours = abs(hours) #once the while loop is done, we change from negative to positive
+    hours = abs(hours) + 1 #once the while loop is done, we change from negative to positive
     print("If you end at " + str(currentHours) + ":" + str(currentMinutes) + " " + currentTime + " and you have gone " + str(elapsedHours) + " hours and " + str(elapsedMinutes)+ " minutes back, then you will start at " + str(hours) + ":" + str(minutes) + " " + current + "." )
 
 
