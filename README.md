@@ -5,7 +5,7 @@ This project has three Python files. This is a work in progress!
 
 ## twotimes.py
 
-To run this in CMD, simply navigate to the director where your file is saved and type in "py twotimes.py".
+To run this in CMD, simply navigate to the directory where your file is saved and type in "py twotimes.py".
 In this file, the user inputs a start and end time. The output is the amount of time that has elapsed in hours and minutes.
 
 #### Issues
@@ -14,7 +14,7 @@ I've been running through sample test cases to catch bugs. I have added conditio
 
 ## onetime.py
 
-To run this in CMD, simply navigate to the director where your file is saved and type in "py onetime.py".
+To run this in CMD, simply navigate to the directory where your file is saved and type in "py onetime.py".
 In this file, the user inputs a start/end time and the amount of time that has elapsed. The output will be the end/start time.
 
 #### Issues
