@@ -49,6 +49,22 @@ if(shift == "F"):
             else:
                 current = "AM"
             hours -= 12 #start over
+    #format the minutes
+    counter2 = 0
+    if(currentMinutes < 10):
+        while(currentMinutes >= counter2):
+            if(currentMinutes == counter2):
+                currentMinutes = "0" + str(counter2) 
+                break
+            counter2 += 1
+    counter3 = 0
+    if(minutes < 10):
+        while(minutes >= counter3):
+            if(minutes == counter3):
+                minutes = "0" + str(counter3) 
+                break
+            counter3 += 1   
+    #print the final statement
     print("If you start at " + str(currentHours) + ":" + str(currentMinutes) + " " + currentTime + " and " + str(elapsedHours) + " hours and " + str(elapsedMinutes)+ " minutes have passed, then you will end up at " + str(hours) + ":" + str(minutes) + " " + current + "." )
 elif(shift == "B"): #check backwards now
     minutes = currentMinutes - elapsedMinutes #get the amount of minutes by going backwards
@@ -73,6 +89,22 @@ elif(shift == "B"): #check backwards now
         hours = 12
     if hours == 13:
         hours = 1
+    #format the minutes
+    counter2 = 0
+    if(currentMinutes < 10):
+        while(currentMinutes >= counter2):
+            if(currentMinutes == counter2):
+                currentMinutes = "0" + str(counter2) 
+                break
+            counter2 += 1
+    counter3 = 0
+    if(minutes < 10):
+        while(minutes >= counter3):
+            if(minutes == counter3):
+                minutes = "0" + str(counter3) 
+                break
+            counter3 += 1   
+    #print the final statement
     print("If you end at " + str(currentHours) + ":" + str(currentMinutes) + " " + currentTime + " and you have gone " + str(elapsedHours) + " hours and " + str(elapsedMinutes)+ " minutes back, then you will start at " + str(hours) + ":" + str(minutes) + " " + current + "." )
 
 
