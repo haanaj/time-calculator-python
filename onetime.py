@@ -49,6 +49,9 @@ if(shift == "F"):
             else:
                 current = "AM"
             hours -= 12 #start over
+    #format the hours
+    if hours == 0:
+        hours = 12
     #format the minutes
     counter2 = 0
     if(currentMinutes < 10):
