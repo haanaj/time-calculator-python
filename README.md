@@ -21,6 +21,8 @@ In this file, the user inputs a start/end time and the amount of time that has e
 
 Working on testing. Had an issue with 12 am being 00 am and 1 am being 13 am - I've fixed this with an if statement but am trying to figure out the root of the issue.
 
+Bug found with the AM/PM change with a time such as 12am going back beyond 12+ hours where it doesn't switch back to AM (only one switch occurs to PM). 
+
 ## test.py
 
 This is just my test file where I ran snippets of code in order to debug.
